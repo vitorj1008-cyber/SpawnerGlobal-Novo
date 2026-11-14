@@ -3,7 +3,7 @@ name: Build SpawnerGlobal
 on:
   workflow_dispatch:
   push:
-    branches: [ principal ]
+    branches: [ main ]
 
 jobs:
   build:
